@@ -1,0 +1,46 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Simple Display List skill",
+          "examplePhrases": [
+            "Alexa open display skill"
+          ],
+          "name": "DisplaySkill",
+          "description": "Simple Display List skill"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No Special testing instructions.",
+      "category": "SELF_IMPROVEMENT",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces":[
+          {
+          "type": "RENDER_TEMPLATE"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance":{
+      "allowPurchases": false,
+      "locales":{
+        "en-US":{
+          "termsOfUrl": "http://example.com/terms",
+          "privacyPolicyUrl": "http://example.com/privacy"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
